@@ -1,0 +1,15 @@
+body{
+    background: rgb(247, 168, 197);
+    background: linear-gradient(90deg, rgba(255,136,179,1) 0%, rgba(108,223,229,1) 97%);
+  }
+  .d1{
+    background-color: skyblue;
+  }
+  .form-error{
+    color:red;
+    font-size : .75em;
+    font-weight: bold;
+  }
+  a, .btn-link{
+    text-decoration: none;
+  }
