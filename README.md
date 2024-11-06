@@ -1,16 +1,17 @@
 # code-test
 
-/*
+/**
 *Email: admin@gmail.com 
 *Password: password
 *Role: admin
-
-/*
+*/
+/**
 *php artisan migrate
 *php artisan db:seed
 *php artisan serve
 
 *php artisan storage:link 
+*/
 
 // GetData with API
 /**
@@ -30,9 +31,11 @@
  * localhost:8000/api/delete/employee/{id}  (Get method)
 
  
- /* Update
+ // Update
+ /**
  *localhost:8000/api/company/update (POST Method)
 
-/* Detail of data
+// Detail of data
+/**
  * localhost:8000/api/detail/company/{id} (Get Method)
  */
