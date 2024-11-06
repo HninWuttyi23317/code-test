@@ -1,3 +1,33 @@
+# code-test
+
+
+* Email: admin@gmail.com 
+* Password: password
+* Role: admin
+
+//Project Run
+* php artisan migrate
+* php artisan db:seed
+* php artisan serve
+* php artisan storage:link 
+
+
+// GetData with API
+ * localhost:8000/api/company/list (Get method)
+ * localhost:8000/api/employee/list (Get method)
+
+ //  Create Data
+ * localhost:8000/api/create/company (POST Method)
+ * localhost:8000/api/create/employee (POST Method)
+ 
+ //  Delete Data
+ * localhost:8000/api/delete/company/{id}  (Get method)
+ * localhost:8000/api/delete/employee/{id}  (Get method)
+
+// Detail of data
+ * localhost:8000/api/detail/company/{id} (Get Method)
+ * localhost:8000/api/company/update (POST Method) //Update
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
