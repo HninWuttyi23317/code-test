@@ -1,9 +1,9 @@
 # code-test
 
 
--* Email: admin@gmail.com 
--* Password: password
--* Role: admin
+* Email: admin@gmail.com 
+* Password: password
+* Role: admin
 
 //Project Run
 * php artisan migrate
